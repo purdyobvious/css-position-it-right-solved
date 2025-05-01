@@ -1,7 +1,21 @@
 .robot-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  padding: 40px;
 }
 
 .robot-face-shape {
+  width: 500px;
+  height: 500px;
+  background-color: #3498db;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .robot-eye-left {
